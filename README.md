@@ -53,7 +53,7 @@ Execute the following command to setup the VNC server:
 $ tightvncserver
 ```
 
-During the first execution, set a password for the VNC server. A new VNC display will be created for each client connection. The default port is 5900. Choose 'n' when prompted to set a view-only password.
+During the first execution, set a password for the VNC server. A new VNC display will be created for each client connection. The default port is 5900. Choose 'n'
 
 Next, configure the VNC session:
 
