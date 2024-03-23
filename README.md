@@ -54,7 +54,7 @@ vi ~/.vnc/xstartup
 As you type this, you'll see a field to fill out.
 Please try to copy and paste the following!
 
-# ======= content ======== # # !
+# ======= content ======== # 
 !/bin/sh 
 def 
 export XKL_XMODMAP_DISABLE=1 
@@ -66,7 +66,7 @@ metacity & 
 nautilus & 
 gnome-terminal & 
 autocutsel -fork & 
-#=================== 
+# ======================= # 
 
 Install the VNC server: If you are installing from https://github.com/TurboVNC/turbovnc/releases 
 Proceed with the installation on your Ubuntu server from that site. The version from 2024.3.23 should run fine with the following content
