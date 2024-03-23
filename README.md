@@ -15,7 +15,7 @@ This post aims to help those encountering the same issue and struggling to find 
 
 ## How to Solve the Problem
 
-### Step 0: Make sure you have no issues with the commands below Access VNC and enter the following
+### Step 0: Verify that there are no issues when entering the following command on the server Ubuntu. Access VNC and type the following
 ```bash
 $ glxinfo
 $ vglrun
