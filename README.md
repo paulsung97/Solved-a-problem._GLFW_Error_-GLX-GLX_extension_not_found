@@ -14,6 +14,25 @@ This post aims to help those encountering the same issue and struggling to find 
 
 ## How to Solve the Problem
 
+### Step 0: Make sure you have no issues with the commands below Access VNC and enter the following
+```bash
+$ glxinfo
+$ vglrun
+```
+If you get an error when entering a command, do the following
+It may not work because there is no screen when running with Ssh. 
+If it doesn't work when running with vnc, there is a problem. 
+
+```bash
+$ wget https://github.com/VirtualGL/virtualgl/releases/download/3.1.1/virtualgl_3.1.1_amd64.deb
+$ sudo dpkg -i virtualgl_3.1.1_amd64.deb
+$ export DISPLAY=:1
+$ export VGL_DISPLAY=:1
+$ echo $DISPLAY
+$ echo $VGL_DISPLAY
+```
+
+
 ### Step 1: Access the Server and Install VNC
 
 Connect to the server using SSH through Visual Code and execute:
