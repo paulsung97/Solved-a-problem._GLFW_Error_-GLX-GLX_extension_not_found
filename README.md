@@ -3,6 +3,7 @@
 Resolved an issue with opening 3D applications in a remote Ubuntu server environment using VNC, by utilizing Turbo VNC which supports 3D acceleration.
 
 ## Background
+I used a MacBook to proceed below.
 Encountered an Open 3D error when using SLAM architecture remotely via VNC with a laboratory server. Previously, the server was accessed through `tightvncserver` and interacted with via `tiger VNC` or `Real VNC` for GUI operations. This setup functioned well until the following error occurred, indicating a problem with 3D acceleration in the VNC environment:
 
 ```
