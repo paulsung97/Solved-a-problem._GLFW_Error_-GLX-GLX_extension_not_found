@@ -33,7 +33,7 @@ $ export VGL_DISPLAY=:1
 $ echo $DISPLAY
 $ echo $VGL_DISPLAY
 ```
-If that doesn't work, try the entire process from step 1, then try step 0 again in a VNC environment.
+## If that doesn't work, try the entire process from step 1, then try step 0 again in a VNC environment.
 
 ### Step 1: Access the Server and Install VNC
 
