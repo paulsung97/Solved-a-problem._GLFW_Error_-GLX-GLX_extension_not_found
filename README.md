@@ -1,6 +1,4 @@
-Here's how you can structure your GitHub markdown to make it more visually appealing and organized:
 
-```markdown
 # Solved-a-problem
 Resolved an issue with opening 3D applications in a remote Ubuntu server environment using VNC, by utilizing Turbo VNC which supports 3D acceleration.
 
