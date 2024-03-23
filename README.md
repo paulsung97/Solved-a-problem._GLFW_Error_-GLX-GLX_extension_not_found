@@ -87,6 +87,16 @@ sudo ufw allow 5901/tcp
 
 Launch Turbo VNC on your computer and connect using your server's IP address and port.
 
+
+### Step 6: Open a terminal via Turbo VNC
+
+```bash
+$ export DISPLAY=:1
+$ echo $DISPLAY
+$ export VGL_DISPLAY=:1
+$ echo $VGL_DISPLAY
+```
+
 Example of successful connection:
 
 ![image](https://github.com/paulsung97/Solved-a-problem./assets/63456050/b6a05003-2bc6-48a2-983e-76690b861145)
