@@ -15,7 +15,8 @@ This post aims to help those encountering the same issue and struggling to find 
 
 ## How to Solve the Problem
 
-### Step 0: Verify that there are no issues when entering the following command on the server Ubuntu. Access VNC and type the following
+### Step 0: Verify that there are no issues when entering the following command on the server Ubuntu. Access VNC and type the following 
+## You can also try starting with step 1.
 ```bash
 $ glxinfo
 $ vglrun
@@ -33,7 +34,7 @@ $ export VGL_DISPLAY=:1
 $ echo $DISPLAY
 $ echo $VGL_DISPLAY
 ```
-## If that doesn't work, try the entire process from step 1, then try step 0 again in a VNC environment.
+## !!! If that doesn't work, try the entire process from step 1, then try step 0 again in a VNC environment. !!
 
 ### Step 1: Access the Server and Install VNC
 
