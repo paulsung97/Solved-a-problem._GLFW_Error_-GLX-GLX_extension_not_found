@@ -22,7 +22,7 @@ $ vglrun
 If you get an error when entering a command, do the following
 It may not work because there is no screen when running with Ssh. 
 If it doesn't work when running with vnc, there is a problem. 
-If that doesn't work, try step 1 first, then go through the whole thing and try step 0 again in a VNC environment
+
 
 ```bash
 $ wget https://github.com/VirtualGL/virtualgl/releases/download/3.1.1/virtualgl_3.1.1_amd64.deb
@@ -32,7 +32,7 @@ $ export VGL_DISPLAY=:1
 $ echo $DISPLAY
 $ echo $VGL_DISPLAY
 ```
-
+If that doesn't work, try the entire process from step 1, then try step 0 again in a VNC environment.
 
 ### Step 1: Access the Server and Install VNC
 
