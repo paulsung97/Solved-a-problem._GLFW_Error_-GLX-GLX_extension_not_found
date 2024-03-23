@@ -19,8 +19,8 @@ This post aims to help those encountering the same issue and struggling to find 
 Connect to the server using SSH through Visual Code and execute:
 
 ```bash
-sudo apt update
-sudo apt install tightvncserver
+$ sudo apt update
+$ sudo apt install tightvncserver
 ```
 
 ### Step 2: Set Up the VNC Server
@@ -28,7 +28,7 @@ sudo apt install tightvncserver
 Execute the following command to setup the VNC server:
 
 ```bash
-tightvncserver
+$ tightvncserver
 ```
 
 During the first execution, set a password for the VNC server. A new VNC display will be created for each client connection. The default port is 5900. Choose 'n' when prompted to set a view-only password.
@@ -36,7 +36,7 @@ During the first execution, set a password for the VNC server. A new VNC display
 Next, configure the VNC session:
 
 ```bash
-vi ~/.vnc/xstartup
+$ vi ~/.vnc/xstartup
 ```
 
 Insert the following script:
@@ -59,8 +59,8 @@ autocutsel -fork &
 Download and install Turbo VNC on the Ubuntu server:
 
 ```bash
-wget https://github.com/TurboVNC/turbovnc/releases/download/3.1.1/turbovnc_3.1.1_amd64.deb
-sudo dpkg -i turbovnc_3.1.1_amd64.deb
+$ wget https://github.com/TurboVNC/turbovnc/releases/download/3.1.1/turbovnc_3.1.1_amd64.deb
+$ sudo dpkg -i turbovnc_3.1.1_amd64.deb
 ```
 
 Install Turbo VNC on your local machine as well. For macOS, use Homebrew:
@@ -70,7 +70,7 @@ Install Turbo VNC on your local machine as well. For macOS, use Homebrew:
 To start the Turbo VNC server with specific geometry and port, use:
 
 ```bash
-/opt/TurboVNC/bin/vncserver :1 -geometry 1920x1080 -rfbport 5901
+$ /opt/TurboVNC/bin/vncserver :1 -geometry 1920x1080 -rfbport 5901
 ```
 
 Adjust the `-geometry` and `-rfbport` options as needed.
@@ -80,7 +80,7 @@ Adjust the `-geometry` and `-rfbport` options as needed.
 Allow traffic through the chosen port:
 
 ```bash
-sudo ufw allow 5901/tcp
+$ sudo ufw allow 5901/tcp
 ```
 
 ### Step 5: Connect Using Turbo VNC
